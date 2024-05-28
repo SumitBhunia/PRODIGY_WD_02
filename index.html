@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div class="boxContainer margin">
+            <div id="box">
+                <div class="boxwithtext">
+                    <div class="box hour">
+                        <h1>00</h1>
+                    </div>
+                    <h1>HOUR</h1>
+                </div>
+                <div class="boxwithtext">
+                    <div class="box min">
+                        <h1>00</h1>
+                    </div>
+                    <h1>MINUTE</h1>
+                </div>
+                <div class="boxwithtext">
+                    <div class="box sec">
+                        <h1>00</h1>
+                    </div>
+                    <h1>SECOND</h1>
+                </div>
+                <div class="boxwithtext">
+                    <div class="box milsec">
+                        <h1>00</h1>
+                    </div>
+                    <h1>MILISECOND</h1>
+                </div>
+            </div>
+            <div class="button">
+                <button id="startBtn">Start</button>
+                <button id="stopBtn">Stop</button>
+                <button id="lapBtn">Lap</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+        <div class="lapContainer margin">
+            <h2>Lap Timings</h2>
+            <div id="lapList"></div>
+        </div>
+        
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
